@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+
+/* =====common css======== */
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+ul,li,ol {
+  list-style: none;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+img {
+  vertical-align: middle;
+}
+
+:root {
+  --primary-bg-color: #FFFFFF;
+  --secondary-bg-color: #FAE6FF;
+  --button-color: #7C14FD;
+  --secondButton-color: #B070FF;
+  --Hanken-Grotesk: 'Hanken Grotesk', sans-serif;
+  --Open-Sans: 'Open Sans', sans-serif;
+}
+
+/* =====common css======== */
+
+.container {
+  width: 1400px;
+  margin: auto;
+}

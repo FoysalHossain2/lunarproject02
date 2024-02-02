@@ -1,0 +1,117 @@
+:root {
+    --primary-bg-color: #FFFFFF;
+    --secondary-bg-color: #FAE6FF;
+    --button-color: #7C14FD;
+    --secondButton-color: #B070FF;
+    --Hanken-Grotesk: 'Hanken Grotesk', sans-serif;
+    --Open-Sans: 'Open Sans', sans-serif;
+  }
+
+/* =========cardPart design with css============ */
+
+.cardPart {
+    background: url( "../../assets/Background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding: 50px 0;
+}
+
+.cardWrapper {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 106px;
+}
+
+.card::before {
+    position: absolute;
+    content: url( "../../assets/cardimage.png");
+    margin-left: 140px;
+    margin-top: -60px;
+    border: 10px solid #B070FF;;
+    line-height: 50%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+   
+}
+
+.card {
+    position: relative;
+    width: 436.06px;
+    height: 455.018px;
+
+    border-radius: 50px;
+    border: 2px solid #ffffff;
+    background: #FAF6FF;
+    box-shadow: 0px 30px 114px 0px rgba(124, 20, 253, 0.14);
+}
+
+.card__header {
+    color: #000;
+    text-align: center;
+    font-family: var(--Open-Sans);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37.6px;
+    margin-top: 171px;
+}
+
+.card__title {
+    color: #000;
+    text-align: center;
+    font-family: var(--Hanken-Grotesk);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px; 
+    margin-top: 20px;
+}
+
+.card__desc {
+    color: #B070FF;
+    text-align: center;
+    font-family: var(--Hanken-Grotesk);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-top: 14px;
+    padding-right: 31px;
+    padding-left: 23px;
+}
+
+.cardBtn {
+    padding: 12px 80px 12px 50px;
+    border-radius: 15px;
+    background: #B070FF;
+    color: #FFF;
+    font-family: var(--Hanken-Grotesk);
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-top: 34px;
+    margin-left: 45px;
+    cursor: pointer;
+    border: none;
+}
+
+.cardIcon {
+    vertical-align: middle;
+    margin-left: 10px;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+.card:hover .cardIcon {
+    transform: translateX(20px);
+    -webkit-transform: translateX(20px);
+    -moz-transform: translateX(20px);
+    -ms-transform: translateX(20px);
+    -o-transform: translateX(20px);
+} 
+/* =========cardPart design with css============ */

@@ -1,0 +1,64 @@
+:root {
+    --primary-bg-color: #FFFFFF;
+    --secondary-bg-color: #FAE6FF;
+    --button-color: #7C14FD;
+    --secondButton-color: #B070FF;
+    --Hanken-Grotesk: 'Hanken Grotesk', sans-serif;
+    --Open-Sans: 'Open Sans', sans-serif;
+  }
+
+/* =========HireStrategyPart design start css============== */
+
+.hireStrategyPart {
+    background: url("../../assets/bgCommon.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 128px 0px;
+}
+
+.hireStrategy__header {
+    text-align: center;
+}
+
+.hireStrategy__headerText {
+    color: #FFF;
+    text-align: center;
+    font-family: var(--Open-Sans);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 128.3%;
+    margin-bottom: 41px;
+} 
+
+.hireStrategy__desc {
+    color: #FFF;
+    text-align: center;
+    font-family: var(--Hanken-Grotesk);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28.5px;
+}
+
+.hireStrategyPara1 {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding-left: 186px;
+    padding-right: 189px;
+}
+
+.hireStrategyPara2 {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding-right: 187px;
+    padding-left: 206px;
+}
+
+.hireStrategyPara3 {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding-left: 197px;
+    padding-right: 192px;
+}
+
+/* =========HireStrategyPart design start css============== */

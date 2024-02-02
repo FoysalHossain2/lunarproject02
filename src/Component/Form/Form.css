@@ -1,0 +1,117 @@
+
+:root {
+    --primary-bg-color: #FFFFFF;
+    --secondary-bg-color: #FAE6FF;
+    --button-color: #7C14FD;
+    --secondButton-color: #B070FF;
+    --Hanken-Grotesk: 'Hanken Grotesk', sans-serif;
+    --Open-Sans: 'Open Sans', sans-serif;
+  }
+
+/* ============formPart design start css================ */
+
+.formPart {
+    background-color: #fff;
+    padding: 200px;
+}
+
+.formDiv {
+    max-width: 1410px;
+    width: 1410px;
+    height: 756.555px;
+    fill: #FFF;
+    filter: drop-shadow(0px 69px 114px rgba(124, 20, 253, 0.08));
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: 0px 86px 114px 0px rgba(124, 20, 253, 0.14);
+}
+
+.form__innerWrapper {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+
+.left__part .left-header {
+    color:  #000;
+    font-family: var(--Open-Sans);
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 129.7%; 
+    margin-top: 122.78px;
+}
+
+.lineBrake {
+    display: block;
+}
+
+.liner {
+    margin-top: 38px;
+    margin-bottom: 38px;
+    width: 89px;
+    height: 3px;
+    
+    border-radius: 1000px;
+    background: linear-gradient(90deg, #7C14FD 1.09%, rgba(124, 20, 253, 0.29) 99.99%);
+}
+
+.contactUS ul li a {
+    color: #000;
+    font-family: var(--Hanken-Grotesk);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 157.2%;
+    opacity: 0.7;
+    margin-bottom: 20px;
+}
+
+.formIcons .socialIcon {
+    font-size: 35px;
+    margin-right: 22px;
+    margin-top: 38px;
+    cursor: pointer;
+}
+
+.freConsultationBtn {
+    margin-top: 38px;
+}
+
+.ConsultationBtn {
+    padding: 18.14px 38.48px;
+    outline: none;
+    border-radius: 15px;
+    border: 2px solid #7C14FD;
+
+    color: #7C14FD;
+    text-align: center;
+    font-family: var(--Hanken-Grotesk);
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.ConsultationBtn:hover {
+    background-color: #7C14FD;
+    color: #FFF;
+}
+
+/*############ form right part########## */
+.formRightPart .als__contact__us {
+    margin-top: 135.7px;
+    color: #000;
+    font-family: var(--Open-Sans);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 129.7%;
+    letter-spacing: 0.55px;
+}
+
+.formRightPart input {
+    width: 452.143px;
+    height: 65px;
+    margin: 8px 0;
+    border-radius: 15px;
+    background: #FAF6FF;
+    border: none;
+}
+
+/* ============formPart design start css================ */

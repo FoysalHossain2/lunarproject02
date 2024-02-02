@@ -1,0 +1,46 @@
+:root {
+    --primary-bg-color: #FFFFFF;
+    --secondary-bg-color: #FAE6FF;
+    --button-color: #7C14FD;
+    --secondButton-color: #B070FF;
+    --Hanken-Grotesk: 'Hanken Grotesk', sans-serif;
+    --Open-Sans: 'Open Sans', sans-serif;
+  }
+
+/* =========Banner part design with css================= */
+.bannerPart {
+    background: url( "../../assets/Background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding: 200px 0 330px;
+    overflow: hidden;
+}
+
+.bannerText::after {
+    position: absolute;
+    content: url( "../../assets/banner2.png");
+    top: 100px;
+    left: 0;
+    overflow: hidden;
+}
+
+.bannerText .bannerHeaderText {
+    color: var(--Black, #000);
+    font-family: var(--Open-Sans);
+    font-size: 76px;
+    font-weight: 700;
+    line-height: 115.7%; 
+    letter-spacing: -1.14px;
+}
+ 
+.bannerText  .bannerTitleText {
+    color: #B070FF;
+    font-family: var(--Hanken-Grotesk);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 119.7%; 
+    margin-top: 15px;
+}
+/* =========Banner part design with css================= */
